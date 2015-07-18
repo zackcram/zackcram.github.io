@@ -7,21 +7,21 @@ url: "zackcram.github.io" # the base hostname & protocol for your site
 github_username:  zackcram
 
 defaults:
-	-
-		scope:
-			path:	""
-			type:	"posts"
-		values:
-			author: Zack Cram
-			layout:	"post"
-			category: 	blog
-			comments:	true
-	-
-		scope:
-			path:	""
-			type:	"pages"
-			values:
-			layout:	"page"
+
+scope:
+path:	""
+type:	"posts"
+values:
+author: Zack Cram
+layout:	"post"
+category: 	blog
+comments:	true
+
+scope:
+path:	""
+type:	"pages"
+values:
+layout:	"page"
 
 
 # Build settings
